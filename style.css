@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+html,
+h1,
+h2,
+p,
+a,
+span {
+  font-family: "Inter";
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #c111114d;
+}
+.cursor-pointer {
+  cursor: pointer !important;
+}
+.train-block {
+  position: relative;
+}
+.train {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+  width: 25%;
+  transition: left 1s linear;
+}
